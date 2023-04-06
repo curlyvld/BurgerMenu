@@ -33,7 +33,7 @@ ul{
 
 .header {
     background-color:rgb(255, 114, 137);
-    margin-bottom: 40px;
+    
     
 }
 .header__container {
@@ -80,7 +80,7 @@ ul{
     margin: 0;
 }
 .content {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .content__container {
     background-color: rgb(68, 254, 170);
@@ -108,7 +108,7 @@ ul{
 
 }
 .block {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .block__container {
     background-color: aqua;
@@ -125,7 +125,7 @@ ul{
 }
 
 .page {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .page__container {
     background-color: pink;
@@ -170,18 +170,19 @@ ul{
         height:100%;
         width: 100%;
         background-color: yellow;
-        padding:75px 20px 20px 20px;
-        transition: transform .7s;
+        padding:150px 20px 20px 20px;
+        transition: transform .5s;
     }
     .nav__menu{
         display: block;
     }
     .nav__menu-link{
-        font-size: 21px;
+        font-size: 30px;
         opacity: 0.7;
         display: block;
         padding: 10px;
         text-align: center;
+        margin-bottom: 20px;
     }
     .header.open .main{
         display: none;
