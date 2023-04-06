@@ -38,11 +38,9 @@ const isMobile = {
  * Burger-click
 */
 
-document.addEventListener("DOMContentLoaded", function(){
    document.getElementById("burger").addEventListener("click", function(){
         document.querySelector("header").classList.toggle("open");
     })
-})
 
 /** 
  * Scroll to section
