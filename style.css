@@ -171,7 +171,7 @@ ul{
         width: 100%;
         background-color: yellow;
         padding:150px 20px 20px 20px;
-        transition: transform .5s;
+        transition: .5s;
     }
     .nav__menu{
         display: block;
