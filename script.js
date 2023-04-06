@@ -68,3 +68,19 @@ if (menuLinks.length > 0) {
     }
   }
 }
+
+/** 
+ * Burger-click-hide
+*/
+
+document.getElementById("menu-link").addEventListener("click", function(){
+    document.querySelector("header").classList.toggle("open"); });
+
+    document.getElementById("menu-link2").addEventListener("click", function(){
+        document.querySelector("header").classList.toggle("open"); });
+
+        document.getElementById("menu-link3").addEventListener("click", function(){
+            document.querySelector("header").classList.toggle("open"); });
+
+            document.getElementById("menu-link4").addEventListener("click", function(){
+                document.querySelector("header").classList.toggle("open"); });
